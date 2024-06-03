@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/all.min.css"/>
+	<link rel="stylesheet"  href="style.css">
+	    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" 
+rel="stylesheet">
+	<title>sign up</title>
+</head>
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <img src="img/logo.jpg" class="img-logo" />
+      <a class="navbar-brand " href="#">my shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+         <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto p-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          </ul>
+         </div>
+    </div>
+  </nav>
+<body>
+<div class="formsec mt-5" id="formsec">
+<div class="container">
+			<div class="row">
+    <div class="col-md-6 col-lg-6">
+<img src="img/signin.png"/>
+	</div>
+<div class="col-md-6 col-lg-6">
+<form class="form needs-validation pe-5" novalidate id="signform">
+	<h5 class="text-center mb-3  pb-5 mt-5  text-uppercase">sign up</h5>
+<div class="input-group mb-3 text-center pe-3">
+	  <label for="Username" class="pe-3">username</label>
+	  <input type="text" class="form-control" placeholder="Username" aria-label="Username" id="Username" aria-describedby="basic-addon1" minlength="3" maxlength="15" required>
+	  </div>
+ <div class="text-center m-1 ms-5" id="errorMessages1"></div>
+<div class="input-group mb-3 text-center pe-3">
+		  <label for="uemail" class="pe-5 ">Email</label>
+ <input type="email" class="form-control" placeholder="email" aria-label="email" id="uemail" aria-describedby="basic-addon1" required>
+ </div>
+ <div class="text-center m-1 ms-5" id="errorMessages2"></div>
+<div class="input-group mb-3 text-center pe-3">
+			  <label for="pass" class="pe-3 ">Password</label>
+<input type="password" class="form-control" minlength="8" placeholder="pass" aria-label="password" id="pass" aria-describedby="basic-addon1" required>
+<span class="password-toggle-icon"> <i class="uil uil-eye-slash toggle m-1" id="eye"></i></span>
+
+</div>
+ <div class="text-center m-1 ms-5" id="errorMessages3"></div>
+<div class="input-group mb-3 text-center pe-3">
+<label for="pass" class="pe-3">retype Password</label>
+<input type="password" class="form-control" placeholder="pass" aria-label="password" id="repass" aria-describedby="basic-addon1" required>
+</div>
+    <div class="text-center ps-3" id="errorMessages4"></div>
+<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="agree" checked required>
+	  <label class="form-check-label pb-3" for="flexRadioDefault1" >
+		 I agree all the terms and conditions
+	  </label>
+	</div>
+ <div class="text-center m-1 ms-5" id="errorMessages5"></div>
+     <div class="form-footer ms-3 text-center">
+	<button class="btn btn-primary mb-3" type="submit" id="submit">sign in</button>
+	<p class="text-center text-black-50 mb-5 text-capitalize">already have an account ?<a href="#signform" id="loginform" onclick="hideForm()">login</a></p>
+</div>
+</form>
+</div></div></div>
+		</div>
+		<div class="loginsec mt-5" id="login">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+              <img src="img/signin.png" width="100%"/>
+	                 </div>
+					<div class="col-md-6 col-lg-6">
+						
+					<form>
+							<h5 class="text-center mb-3  pb-5 mt-5">log in</h5>
+<div class="input-group mb-5 text-center pe-3">
+ <label for="email" class="pe-5">Email</label>
+ <input type="email" class="form-control" placeholder="email" aria-label="email" id="Email" aria-describedby="basic-addon1" required>
+ </div>
+ <div class="text-center m-1 ms-5" id="errorMessages2"></div>
+<div class="input-group mb-5 text-center pe-3">
+<label for="pass" class="pe-3">Password</label>
+<input type="password" class="form-control" minlength="8" placeholder="pass" aria-label="Password" id="password" aria-describedby="basic-addon1" required>
+</div>
+ <div class="text-center m-1 ms-5" id="errorMessages3"></div>
+ <div class="form-footer ms-3 text-center">
+	<button class="btn btn-primary mb-3" type="submit" >log in</button>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+			</div>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js.map"></script>
+<script src="js/bootstrap.bundle.min.js.map"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js">
+	
+
+</script>
+</body>
+</html>
