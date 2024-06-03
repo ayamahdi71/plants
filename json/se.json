@@ -1,0 +1,128 @@
+[{ "id": 37,
+        "category":"summer",
+       "img":"img/ss1.jpg",
+      "name":"Black-eyed Susan",
+          "price":10,
+  "description":"generally bloom from June to August, often blanketing open fields with their golden."
+        },
+        {
+        "id":38,
+        "category":"summer",
+      "img":"img/ss2.jpg",
+      "name":"yarrow",
+       "price":7,
+  "description":"Yarrow is  care-free, making it perfect for borders, ground covers, and open meadows."
+        },
+        {
+            "id":39,
+       "category":"summer",
+      "img":"img/ss3.jpg",
+      "name":"fern",
+          "price":10,
+  "description":"vascular plants that reproduce via spores and have neither seeds nor flowers."
+        },
+        {
+            "id":40,
+        "category":"summer",
+      "img":"img/ss4.jpg",
+      "name":"salvias",
+      "price":8,
+  "description":"All salvias do best in full sun (6-8 hours of sunlight per day) and well-drained soil."
+        },
+        {
+            "id":41,
+            "category":"winter",
+            "img":"img/sw1.jpg",
+            "name":"snowdrops",
+            "price":10,
+            "description":"are small bulbs that are often sold in the green or undried."
+        },
+        { 
+            "id":42,
+            "category":"winter",
+            "img":"img/sw2.jpg",
+            "name":"pussywillow",
+            "price":20,
+            "description":"has long been admired for its strong, spreading, upright stems."
+        },
+        {
+            "id":43,
+            "category":"winter",
+            "img":"img/sw3.jpg",
+            "name":"River birch",
+            "price":16,
+            "description":"a medium to tall tree, growing 60-80 feet at maturity and about 40 wide."
+        },
+        {
+            "id":44,
+            "category":"winter",
+            "img":"img/sw4.jpeg",
+            "name":"Witch-hazel",
+            "price":12,
+            "description":"a hardy shrub or small tree that produces eye-catching and has fragrant blooms"
+        },
+        {
+            "id":45,
+            "category":"spring",
+            "img":"img/sp1.jpg", 
+            "name":"narcissus",
+            "price":7,
+            "description":"The mainly yellow or white flowers are comprised of six petals surrounding a corona."
+        },
+        {
+            "id":50,
+            "category":"spring",
+            "img":"img/sp2.jpg",
+            "name":"tulip",
+            "price":10,
+            "description":"lovely spring-blooming flower that is one of the first to appear after winter."
+        },
+        {
+            "id":51,
+            "category":"spring",
+            "img":"img/sp3.jpg",
+            "name":"lilacs",
+            "price":15,
+            "description":"lilacs should be planted in full sun, being 6 hours of sunlight each day."
+        },
+        {   "id":52,
+            "category":"spring",
+            "img":"img/sp4.jpg",
+            "name":"pansis",
+            "price":9,
+            "description":"are popular flowering plants face-like blooms and wide range of colors and patterns."
+        },
+      
+        {
+            "id":53,
+            "category":"fall",
+            "img":"img/sf1.jpg",
+            "name":"asters",
+            "price":6,
+            "description":"purple daisylike perennials which bloom in fall when other flowers have faded."
+        },
+        {
+            "id":54,
+            "category":"fall",
+            "img":"img/sf3.jpg",
+            "name":"autumn crocus",
+            "price":15,
+            "description":"meadow saffron, naked boys or naked ladies, is a toxic autumn-blooming flowering."
+        },
+        {
+            "id":55,
+            "category":"fall",
+            "img":"img/sf4.jpg",
+            "name":"goldenrod",
+            "price":10,
+            "description":"tall and slim with fluffy golden flower spikes in various shades of yellow "
+        },
+        {
+            "id":56,
+            "category":"fall",
+            "img":"img/sf2.jpg",
+            "name":"sedum",
+            "price":10,
+            "description":"succulent green foliage and produces clusters of star-shaped flowers ."
+        }
+]
