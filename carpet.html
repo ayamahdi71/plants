@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/all.min.css"/>
+	<link rel="stylesheet"  href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<title>my shop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <img src="img/logo.jpg" class="img-logo" />
+          <a class="navbar-brand " href="#">my shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+             <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto p-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              </ul>
+             
+      
+       <a href="html/signin.html"><button type="button" class="btn btn-primary me-3 pb-1 mb-1">login</button></a>
+          </div>
+        </div>
+      </nav>
+      <!--products-->
+      <div class="listsection" id="listsection">
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12  text-center">
+        <header>
+            <div class="card-title ms-5 mt-5">PRODUCT LIST</div>
+            <div class="icon-cart me-5 pe-5">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span class="me-5">0</span>
+            </div>
+          </div>
+        </header>
+      <div class="col-lg-12 m-2 p-5 text-center">
+        <div class="listProduct">
+       </div>
+    </div>
+  </div>
+
+    <div class="cartTab">
+        <h1 class="card-text mt-5 pt-5 pb-3">Shopping Cart</h1>
+        <div class="listCart mt-5 pt-5">
+            
+        </div>
+        <div class="btn btn-sec">
+            <button class="close">CLOSE</button>
+            <button class="checkOut" onclick="pay()">PAY</button>
+            </div>
+        </div>
+</div>
+    </div>
+    <!--pay section-->
+    <div class="pay" id="pay">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 mt-3 mb-lg-2 mb-3">
+            <div class="visa p-3">
+              <div class="img-box">
+                <img src="img/credit-card.png" alt="">
+            </div>
+            <div class="number">
+                <label class="fw-bold" for="">**** **** **** 1060</label>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                <small><span class="fw-bold">Name:</span><span>rana</span></small>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3 mb-lg-2 mb-3">
+            <div class="visa p-3">
+              <div class="img-box">
+                <img src="img/Mastercard.jpg" alt="">
+            </div>
+            <div class="number">
+                <label class="fw-bold" for="">**** **** **** 1060</label>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                <small><span class="fw-bold">Name:</span><span>ahmed</span></small>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-3 mb-lg-2 mb-3">
+            <div class="visa p-3">
+              <div class="img-box">
+                <img src="img/Discover_Card.png" alt="">
+            </div>
+            <div class="number">
+                <label class="fw-bold" for="">**** **** **** 1060</label>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                <small><span class="fw-bold">Name:</span><span>aya</span></small>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-12 mt-4">
+            <div class="visa p-3">
+                <p class="mb-0 fw-bold h4">Payment Methods</p>
+            </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="visa p-3">
+              <div class="visa-body border p-0">
+                  <p>
+                      <a class="btn btn-pay w-100 h-100 d-flex align-items-center justify-content-between"
+                          data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                          aria-controls="collapseExample">
+                          <span class="fw-bold">PayPal</span>
+                          <span class="fab fa-cc-paypal">
+                          </span>
+                      </a>
+                  </p>
+                  <div class="collapse p-3 pt-0" id="collapseExample">
+                      <div class="row">
+                          <div class="col-8">
+                              <p class="h4 mb-0 c-green"  >Summary</p>
+                              <p class="mb-0"><span class="fw-bold" ></span><span class="c-green" id="pricepay" ></span></p>
+                              <p class="mb-0"><span class="fw-bold" >product name:</span>
+                                <span class="c-green" id="prosname"></span></p>
+                              <p class="mb-0">thank you for shopping from us</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="visa-body border p-0">
+                <p>
+                    <a class="btn btn-pay w-100 h-100 d-flex align-items-center justify-content-between"
+                        data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                        aria-controls="collapseExample">
+                        <span class="fw-bold">Credit Card</span>
+                        <span class="">
+                          <span class="fab fa-cc-amex"></span>
+                          <span class="fab fa-cc-mastercard"></span>
+                          <span class="fab fa-cc-discover"></span>
+                      </span>
+                    </a>
+                </p>
+ <div class="collapse show p-3 pt-0" id="collapseExample1">
+                    <div class="row">
+                        <div class="col-5">
+                            <p class="h4 mb-0">Summary</p>
+                            <p class="mb-0"><span class="fw-bold"></span><span
+                              class="c-green" id="pricecredit" ></span></p>
+
+                            <p class="mb-0">product name :<span class="fw-bold">
+                            </span><span class="c-green" id="prosnamecredit"></span></p>
+
+                            <p class="mb-0">thank you for shopping from us</p>
+                        </div>
+                        <div class="col-lg-7">
+                          <form action="" class="form">
+                          <div class="row">
+                          <div class="col-lg-12">
+                            <div class="form__div ">
+                          <input type="text" class="form-control" placeholder="Card Number" id="card-num">
+                            </div>
+                            </div>
+
+                  <div class="col-lg-6 p-3">
+                  <div class="form__div">
+                      <input type="text" class="form-control" placeholder="MM / yy ">
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="form__div p-3">
+                      <input type="password" class="form-control" placeholder="cvv code">
+                  </div>
+                </div>
+                <div class="col-lg-12 pb-3">
+                  <div class="form__div">
+                    <input type="text" class="form-control" placeholder="name on card">
+                  </div>
+              </div>
+              <div class="col-lg-12 col-sm-6 col-md-4">
+                <div class="btn btn-pay w-100">apply</div>
+            </div>
+              </div>
+               </form>
+              </div>
+            </div>  
+           </div>
+      </div>
+ </div>
+    </div>
+    <div class="col-lg-12 mt-2 mb-2 col-sm-6 col-md-4">
+      <div class="btn btn-pay payment">
+          Make Payment
+      </div>
+  </div>
+    </div>
+    </div>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+     <script  src="js/carpet.js"></script>
+</body>
+</html>
